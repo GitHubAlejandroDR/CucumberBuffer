@@ -31,3 +31,15 @@ Esta sintaxis no ha sido utilizada aunque en todas mis features se repitiese el 
 - Scenarios outline
 
 Este tipo de Scenario son muy utiles a la hora de lanzar pruebas con una lista de valores o 'Data tables'. 
+
+## Modo de trabajo
+
+Para el desarrollo de los diferentes Scenarios y respectivos StepDefinitions se ha seguido el siguiente proceso:
+
+1º Se crean los Scenarios en el archivo .feature. 
+
+2º Se ejecuta el test. Debido a la inexistencia de los StepDefinitions para estos Scenarios este debe de sugerir su sintaxis de implementación. 
+
+3º Aprovechando el test anterior se copian los métodos de este en el StepDefinitions y se completan para darle su funcionalidad concreta.
+
+** Repetición de los tres pasos anteriores en el caso de añadir nuevos Scenarios.
